@@ -51,7 +51,7 @@ void Aht10Load(int pinSda, int pinScl) {
     uint8_t buf[2] = {0x08, 0x00};
     i2cWriteBytes(CMD_INIT, buf, 2);
 
-    BrorThreadCreate(aht10Thread, "aht10Thread", BROR_THREAD_PRIORITY_MIDDLE, 
+    BrorThreadCreate(aht10Thread, "aht10Thread", BROR_THREAD_PRIORITY_LOWEST, 
         THREAD_STACK_SIZE * 1024);
 }
 
