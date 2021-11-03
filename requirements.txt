@@ -1,2 +1,3 @@
 https://github.com/jdhxyy/bror.git
 https://github.com/jdhxyy/bror-freertos.git
+https://github.com/jdhxyy/lagan-clang.git
